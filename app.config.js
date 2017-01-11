@@ -8,7 +8,10 @@ angular.
 
       $routeProvider.
         when('/register', {
-          template: '<register></register>'
+          template: '<register></register>'+
+		  '<indexdb></indexdb>'
+		  
+		  //template: '<div ng-controller="indexdbController as vm" ></div>'
         }).
         otherwise('/register');
     }

@@ -1,4 +1,6 @@
 'use strict';
 
 // Define the `register` module
-angular.module('register', []);
+angular.module('register', [
+	'indexdb'
+]);
