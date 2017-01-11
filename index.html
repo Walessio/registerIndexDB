@@ -1,17 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en" ng-app="registerApp" >
 	<head>
-		<meta charset="utf-8" />
-		<title>AngularJS Redirect</title>
-		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+		<meta charset="utf-8">
+		<title>registerIndexDb</title>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		
+		<script src="app.module.js"></script>
+		<script src="app.config.js"></script>
+		<script src="register/register.module.js"></script>
+		<script src="register/register.component.js"></script>
 	</head>
 	<body>
-		
-		<div data-ng-app="redirect" data-ng-controller="redirectController" ></div>
-		
-		<script src="libs/angularjs-1.5.8.min.js"></script>
-
-		<script src="app.js" ></script>
+	
+		<div ng-view></div>
 		
 	</body>
 </html>
