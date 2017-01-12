@@ -2,5 +2,6 @@
 
 // Define the `register` module
 angular.module('register', [
-	'indexdb'
+	'indexdb',
+	'ngMaterial'
 ]);

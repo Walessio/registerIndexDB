@@ -11,6 +11,7 @@ angular.
 		var version = 1;
 		
 		var open = function(){
+			
 			var deferred = $q.defer();		
 			
 			var request = indexedDB.open(dbName, version);
