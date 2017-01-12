@@ -1,7 +1,7 @@
 {
   "name": "assignment",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.4",
   "description": "a form to register user data and show welcome",
   "repository": "https://github.com/Walessio/registerIndexDB",
   "license": "MIT",

@@ -2,7 +2,8 @@
 
 angular.module('registerApp', [
 	'ngRoute',
+	'ngMaterial',
+	'ngMessages',
 	'register',
-	'indexdb',
-	'angularMoment'
+	'indexdb'
 ]);
