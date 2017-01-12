@@ -2,5 +2,6 @@
 
 angular.module('registerApp', [
 	'ngRoute',
-	'register'
+	'register',
+	'indexdb'
 ]);
