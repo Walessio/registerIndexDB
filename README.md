@@ -1,3 +1,14 @@
+Assignment has been tested in a node.js webserver
+unit tests where written in Karma
+E2E tests where written in Protractor
+more info about the develop and testing environment can be found here:
+https://docs.angularjs.org/tutorial/#environment-setup
+
+
+
+assigment specifications from e-mails:
+
+
 Hello Alessio,
 
 One correction:
